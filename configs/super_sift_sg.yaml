@@ -1,0 +1,18 @@
+extractor:
+  name: sp_sift
+  num_kpt: 2000
+  resize: [-1] 
+  det_th: 0.0005
+
+matcher:
+  name: sp_sift_sg
+  model_dir: weights/super_sift_sg
+  net_channels: 256
+  layer_num: 9
+  head: 4
+  seedlayer: [0,4]
+  use_score_encoding: True
+  use_desc: True
+  sink_iter: [20,80]
+  p_th: 0.8
+  addition_atten_layer_num: 0
