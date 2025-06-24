@@ -13,7 +13,7 @@ from utils import evaluation_utils
 import argparse
 import csv
 parser = argparse.ArgumentParser()
-parser.add_argument('--config_path', type=str, default='configs/super_sift_sg.yaml', # 'configs/super_sift_sg.yaml' or 'configs/sg_splight.yaml'
+parser.add_argument('--config_path', type=str, default='configs/sg_splight.yaml', # 'configs/super_sift_sg.yaml' or 'configs/sg_splight.yaml'
   help='number of processes.')
 parser.add_argument('--img1_path', type=str, default= 'demo/demo_image/buiding_demo1.jpg', #  'demo/demo_image/buiding_demo1.jpg'  or 'demo/demo_image/uav_demo1.jpg'
   help='number of processes.')
