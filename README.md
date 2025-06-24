@@ -1,7 +1,7 @@
 <h1 align="center">Rotation-Invariant-Neural-Network-Feature-Point-Matching</h1>
 
-![invariant example](example\invariant_example.gif)
-![original example](example\original_example.gif)
+![invariant example](example/invariant_example.gif)
+![original example](example/original_example.gif)
 
 The examples of original SuperPoint and SuperGlue framework matching result (top). The results show that matching at angles exceeding 60 degrees significantly decreases the number of matched feature points. Our rotation-invariant method obtains many matched points even at large angles (bottom).
 
