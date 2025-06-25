@@ -10,7 +10,8 @@ The examples of original SuperPoint and SuperGlue framework matching result (top
 
 ---
 The inference codes for rotation invariant feature point matching. It takes as input a pair of images and return a matched points result.
-Our approach is built upon the SuperPoint and SuperGlue framework, with several architectural modefication and employing alternative model traning strategies. Model code adapted from: https://github.com/vdvchen/SGMNet.
+Our approach is built upon the SuperPoint and SuperGlue framework, with several architectural modefication and employing alternative model traning strategies. See the research of "Deep Learning-based Image Feature Matching for UAV Visual Positioning" at [Csprs 2024](https://www.airitilibrary.com/Article/Detail/10218661-N202501080014-00002/)  (Lai-Han Zou, 
+Chao-Hung Lin). Model code adapted from: https://github.com/vdvchen/SGMNet.
 
 ## 1. Download pre-trained model
 * [Get pre-trained model in this link]
